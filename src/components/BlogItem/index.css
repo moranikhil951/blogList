@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+@media screen and (max-width: 768px) {
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .description {
+    font-size: 10px;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 13px;
+  }
+
+  .date {
+    font-size: 13px;
+  }
+}
